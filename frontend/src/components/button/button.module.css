@@ -1,0 +1,25 @@
+.button {
+    display: inline-block;
+
+    min-width: 64px;
+    height: 36px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    color: #ffffff;
+    background: #ff9800;
+
+    border-radius: 2px;
+    
+    margin: 0;
+
+    padding-left: 16px;
+    padding-right: 16px;
+
+    border: none;
+}
+
+.button:active {
+    background: #c66900;
+}

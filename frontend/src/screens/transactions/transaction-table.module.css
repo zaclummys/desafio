@@ -1,0 +1,12 @@
+.table {
+    width: 100%;
+    text-align: left;
+}
+
+.table tr {
+    height: 32px;
+}
+
+.table tbody tr {
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+    background: #fff;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, .7);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+}
+
+.header h1 {
+    margin: 0;
+    flex-grow: 1;
+    font-weight: 600;
+}
+
+.header a {
+    font-weight: 500;
+
+    color: inherit;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px 24px;
+}
+
+.action {
+    color: #ff9800;
+    display: inline-block;
+    margin-left: 16px;
+}
