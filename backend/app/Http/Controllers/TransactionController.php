@@ -81,9 +81,9 @@ class TransactionController extends Controller
         }
 
         if ($request->document) {            
-            $transaction->document = Storage::disk('public')->url(
+            $transaction->document = Storage::disk('tenant')->url(
                 $request->document->store('/', [
-                    'disk' => 'public'
+                    'disk' => 'tenant'
                 ])
             );
         }
