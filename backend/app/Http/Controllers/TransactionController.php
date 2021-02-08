@@ -45,8 +45,8 @@ class TransactionController extends Controller
 
         auth()->user()->transactions()->create([
             'value' => $value,
+            'status' => $status,
             'document' => $document,
-            'status' => 'processing',
         ]);
     }
 
