@@ -16,10 +16,6 @@ use App\Http\Controllers\TransactionController;
 |
 */
 
-Route::get('/users', function () {
-    return App\User::get();
-});
-
 Route::post('/auth/login', [AuthController::class, 'login']);
 Route::get('/auth/current', [AuthController::class, 'current']);
 
