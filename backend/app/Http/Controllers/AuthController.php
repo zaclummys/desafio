@@ -17,8 +17,4 @@ class AuthController extends Controller {
             'token' => $token
         ]);
     }
-
-    public function current () {
-        return auth()->user();
-    }
 }

@@ -17,7 +17,6 @@ use App\Http\Controllers\TransactionController;
 */
 
 Route::post('/auth/login', [AuthController::class, 'login']);
-Route::get('/auth/current', [AuthController::class, 'current']);
 
 Route::middleware('auth:api')->group(function ($route) {
     $route->get('/transaction/all', [TransactionController::class, 'all']);

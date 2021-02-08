@@ -35,6 +35,7 @@ class TransactionController extends Controller
      */
     public function create (CreateTransactionRequest $request) {
         $value = $request->value;
+        $status = $request->status;
 
         $document = Storage::disk('tenant')->url(
             $request->document->store('/', [
